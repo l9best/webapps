@@ -19,10 +19,11 @@ public class ShowRsUseBean extends HttpServlet {
 		PrintWriter out=response.getWriter();
 		
 		out.println("<table border=1>");
+		
+		
 		out.println("<tr><td>Content:</td></tr>");
 		
 		Connection conn=DB.getConn();
-		Statement stmt=DB.getStatement(conn);
 		String sql="select * from article";
 		ResultSet rs=DB.getResultSet(stmt, sql);
 		try {
