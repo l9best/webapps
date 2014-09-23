@@ -57,3 +57,8 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+.myeclipse
+.settings
+.classpath
+.mymetadata
+.project
